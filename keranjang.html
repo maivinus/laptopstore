@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop-Store | Keranjang</title>
+
+    <link href="./css/bootstrap.css" rel="stylesheet" media="screen"/>
+
+    <style>
+        main{
+            margin-top: 70px;
+        } 
+        footer{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">LAPTOP STORE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./produk.html">Produk</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link position-relative" href="./keranjang.html">
+                                Keranjang
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                                    5
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./cara.html">Cara Belanja</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="konten"> 
+    <div class="container">
+        <h1 class="mb-5">Keranjang Belanja</h1>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr style="background-color: burlywood; text-align: center;">
+                    <th scope="col">No</th>
+                    <th scope="col">Produk</th>
+                    <th scope="col">Harga</th>
+                    <th scope="col" style="width: 150px";>Kuantitas</th>
+                    <th scope="col">Sub Total</th>
+                    <th scope="col">Hapus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Asus ROG Strix G713QE GeForce RTX™ 3050Ti - Ryzen 7 5800 16GB 512ssd - UNIT GREY</td>
+                    <td>Rp.19.199.000</td>
+                    <td>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">-</button>
+                            <input type="text" class="form-control" placeholder="" style="width: 10px; text-align: center;" value="1">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">+</button>
+                        </div>
+                    </td>
+                    <td>Rp.19.199.000</td>
+                    <td class="d-grid">
+                        <button class="btn btn-outline-danger btn-sm">Hapus</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>LAPTOP ACER ASPIRE 3 A314-22 AMD RYZEN 3-3250U 4GB 256GB 14" OHS W10 - HD 4GB</td>
+                    <td>Rp5.699.000</td>
+                    <td>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">-</button>
+                            <input type="text" class="form-control" placeholder="" style="width: 10px; text-align: center;" value="1">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">+</button>
+                        </div>
+                    </td>
+                    <td>Rp5.699.000</td>
+                    <td class="d-grid">
+                        <button class="btn btn-outline-danger btn-sm">Hapus</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>CTO MACBOOK PRO 2021 M1 MAX CUSTOM 14" 16" RAM 32GB 64GB - 14" 24CORE GREY, 32/1TB</td>
+                    <td>Rp57.224.000</td>
+                    <td>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">-</button>
+                            <input type="text" class="form-control" placeholder="" style="width: 10px; text-align: center;" value="1">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">+</button>
+                        </div>
+                    </td>
+                    <td>Rp57.224.000</td>
+                    <td class="d-grid">
+                        <button class="btn btn-outline-danger btn-sm">Hapus</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>ACER ASPIRE 3 SLIM A314-22 AMD 3020E 4GB 1TB HDD 14" FHD OHS W10 RESMI - HD</td>
+                    <td>Rp4.699.000</td>
+                    <td>
+                        <div class="input-group mb-3">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">-</button>
+                            <input type="text" class="form-control" placeholder="" style="width: 10px; text-align: center;" value="1">
+                            <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">+</button>
+                        </div>
+                    </td>
+                    <td>Rp4.699.000</td>
+                    <td class="d-grid">
+                        <button class="btn btn-outline-danger btn-sm">Hapus</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Lenovo Thinkpad X220 Core i5 / i7 - Second Bergaransi - 4 gb, HDD 320GB</td>
+                    <td>Rp1.799.000</td>
+                    <td><div class="input-group mb-3">
+                        <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">-</button>
+                        <input type="text" class="form-control" placeholder="" style="width: 10px; text-align: center;" value="2">
+                        <button class="btn btn-outline-success btn-sm" type="button" id="button-addon1">+</button>
+                    </div></td>
+                    <td>Rp3.598.000</td>
+                    <td class="d-grid">
+                        <button class="btn btn-outline-danger btn-sm">Hapus</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr style="background-color: burlywood; text-align: center;">
+                    <th colspan="4">Total Keranjang</th>
+                    <th>Rp.90.419.000</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+        <center>
+            <a href="./checkout.html" class="btn btn-success">Check Out</a>
+        </center>
+    </div>
+</main>
+<footer>
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LAPTOP STORE.Maivinus_Jani[19421306] &copy; 2022</a>
+        </div>
+    </nav>
+</footer>
+<script src="./js/jquery-3.6.0.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>

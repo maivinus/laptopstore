@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop-Store | Home</title>
+
+    <link href="./css/bootstrap.css" rel="stylesheet" media="screen"/>
+
+    <style>
+        main{
+            margin-top: 70px;
+        } 
+        footer{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">LAPTOP STORE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./produk.html">Produk</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link position-relative" href="./keranjang.html">
+                                Keranjang
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                                    5
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./cara.html">Cara Belanja</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="konten"> 
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/banner4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="input-group">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori Produk</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./produkterbaru.html">Produk Terbaru</a></li>
+                            <li><a class="dropdown-item" href="./produkterlaris.html">Produk Terlaris</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Semua Kategori</a></li>
+                        </ul>
+                        <input type="text" class="form-control" aria-label="Pencarian Produk...">
+                        <button class="btn btn-secondary">Cari</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-3">
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/produk1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Asus ROG Strix G713QE GeForce RTX™ 3050Ti - Ryzen 7 5800 16GB 512ssd - UNIT GREY</h5>
+                    <p class="card-text">Rp19.199.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <center>
+                      <a href="detailproduk1.html" class="btn btn-primary">Detail</a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/produk2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ASUS ROG FLOW Z13 GZ301ZC GeForce RTX™ 3050Ti - I9 12900H 16GB - black</h5>
+                    <p class="card-text">Rp33.199.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <center>
+                      <a href="./detailproduk2.html" class="btn btn-primary">Detail</a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/produk3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Lenovo Legion 5 Pro 16 GeForce RTX™ 3070 - RYZEN 7 5800H 32GB 1TBSSD - strome grey</h5>
+                    <p class="card-text">Rp26.899.000</p>
+                  </div>
+                  <div class="card-footer">
+                    <center>
+                      <a href="./detailproduk3.html" class="btn btn-primary">Detail</a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lenovo Ideapad Gaming 3 GeForce® GTX 1650Ti - Ryzen 5 4600 16GB - BLACK, 8GB</h5>
+                      <p class="card-text">Rp11.949.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk4.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lenovo Ideapad Gaming 3 GeForce® GTX 1650Ti - Ryzen 5 4600 16GB - BLACK, 8GB</h5>
+                      <p class="card-text">Rp11.949.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk5.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Zyrex Sky 232 Mini (64) II [N4020/11,6"FHD/4GB/64GB+256GB SSD/Win10] - Hitam</h5>
+                      <p class="card-text">Rp3.699.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk6.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">HP Victus 16 d0107TX GeForce RTX™ 3060 - i7 11800H 16GB 512SSD - grey</h5>
+                      <p class="card-text">Rp19.699.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk7.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ASUS VIVOBOOK A416JPO GeForce® MX330 - i3 1005G1 4GB 512ssd +OPT - Grey</h5>
+                      <p class="card-text">Rp7.449.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk8.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">LAPTOP ACER ASPIRE 3 A314-22 AMD RYZEN 3-3250U 4GB 256GB 14" OHS W10 - HD 4GB</h5>
+                      <p class="card-text">Rp5.699.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk9.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ACER ASPIRE 5 A515-45 AMD RYZEN 5-5500U 8GB 512GB 15.6" OHS W10 RESMI - RAM 8GB</h5>
+                      <p class="card-text">Rp8.280.020</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk10.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Macbook Pro 2021 16" Inch M1 Max 1TB 32 ram M1- Pro 512GB 16 ram IBOX - M1 Pro 512, Space Gray</h5>
+                      <p class="card-text">Rp34.875.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk11.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CTO MACBOOK PRO 2021 M1 MAX CUSTOM 14" 16" RAM 32GB 64GB - 14" 24CORE GREY, 32/1TB</h5>
+                      <p class="card-text">Rp57.224.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk12.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ACER ASPIRE 3 SLIM A314-22 AMD 3020E 4GB 1TB HDD 14" FHD OHS W10 RESMI - HD</h5>
+                      <p class="card-text">Rp4.699.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk13.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lenovo Thinkpad X220 Core i5 / i7 - Second Bergaransi - 4 gb, HDD 320GB</h5>
+                      <p class="card-text">Rp1.799.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk14.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lenovo Thinkpad X240 Core i5 - Second Bergaransi - 4 gb, HDD 320GB</h5>
+                      <p class="card-text">Rp2.425.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk15.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/produk16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SAMSUNG GALAXY BOOK FLEX 2 ALPHA 2in1 13.3" QLED Intel i7 16GB 512GB</h5>
+                      <p class="card-text">Rp27.900.000</p>
+                    </div>
+                    <div class="card-footer">
+                      <center>
+                        <a href="./detailproduk16.html" class="btn btn-primary">Detail</a>
+                      </center>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">LAPTOP STORE.Maivinus_Jani[19421306] &copy; 2022</a>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
